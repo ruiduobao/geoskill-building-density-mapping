@@ -1,9 +1,9 @@
 {
   "skill": "building-density-mapping",
   "skill_version": "1.0.0",
-  "command": "building-density-mapping --bbox 116 39 117 40 --synthetic --output-dir Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\building-density-mapping\\_test_cli_synth --quiet",
-  "started_at": "2026-08-03T14:42:38.152774Z",
-  "finished_at": "2026-08-03T14:42:38.318866Z",
+  "command": "building-density-mapping --bbox 116 39 117 40 --synthetic --output-dir /tmp/batch2/geoskill-building-density-mapping/_test_cli_synth --quiet",
+  "started_at": "2026-11-02T14:53:48.399264Z",
+  "finished_at": "2026-11-02T14:53:48.863637Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -16,7 +16,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\building-density-mapping\\_test_cli_synth\\building_density.tif",
+      "path": "/tmp/batch2/geoskill-building-density-mapping/_test_cli_synth/building_density.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -33,7 +33,7 @@
       "row_count": null
     },
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\building-density-mapping\\_test_cli_synth\\density_stats.json",
+      "path": "/tmp/batch2/geoskill-building-density-mapping/_test_cli_synth/density_stats.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -57,7 +57,7 @@
     "synthetic_mean_height": 33.7022590637207
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "building-density-mapping"
   },
   "error": null
